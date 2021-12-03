@@ -392,19 +392,41 @@ header h1 {
   display: inline-block;
 }
 
+.video-utility {
+  float: right;
+}
+.video-utility li {
+  display: inline-block;
+}
+
+.video-info {
+  float: left;
+}
+
+.subscribe-btn {
+  float: right;
+}
+
 .logo {
   margin: auto;
   float: left;
 }
 
-section .video-area {
+.video-area {
   float: left;
   margin: 0 1.5%;
   width: 63%;
 }
 
-aside .video-recommendations {
+.video-recommendations {
   float: right;
   margin: 0 1.5%;
   width: 30%;
+}
+
+.video-thumbnail {
+  width: 168px;
+  height: 94px;
+  float: left;
+  margin: 8px 8px 8px 8px;
 }
